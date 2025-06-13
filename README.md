@@ -6,4 +6,8 @@ Este proyecto consiste en la implementación en lenguaje C de dos estructuras de
 
 ## Funcionamiento
 
+El programa se ejecuta a través de la función main, la cual contiene dos secciones principales de pruebas: una para la pila y otra para la lista enlazada. En el caso de la pila, se inicializa la estructura, se agregan 100 elementos consecutivos, se comprueba si la pila está llena, se intenta agregar un elemento adicional (el cual debe fallar), se extraen 5 elementos verificando que salgan en orden inverso, y finalmente se vacía completamente la pila para probar el manejo de condiciones de subdesbordamiento.
+
+En la parte de la lista enlazada, se inicializa la estructura y se insertan tres elementos (10, 20 y 30) al final. Luego se agrega el valor 5 al inicio de la lista. Se imprime la lista, que debe mostrar los valores en el orden 5, 10, 20, 30. Posteriormente se consulta si ciertos valores están presentes (como 20 y 99), se elimina el elemento 20 (lo que debe tener éxito), se intenta eliminar el valor 99 (lo que debe fallar) y finalmente se imprime nuevamente la lista y su tamaño. De esta forma, se cubren los principales casos de uso esperados en una implementación de lista enlazada.
+
 ## Compilacion y Ejecucion
